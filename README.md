@@ -10,7 +10,8 @@
 
 
 ## :bulb: Motivation and Context
-   It took me little time to understand the basic concepts, but it was very easy to implement views like recycle view and other complex hierarchical views -->
+   It took me little time to understand the basic concepts, but it was very easy to implement views like recycle view and other complex hierarchical views.
+
    Enjoyed applying different formats to image, text and LazyColumn views.
 
 
