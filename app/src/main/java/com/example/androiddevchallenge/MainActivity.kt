@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             MyTheme {
                 MainScreen(
                     puppyViewModel,
+                    resources.getStringArray(R.array.puppy_names),
                     resources.obtainTypedArray(R.array.puppy_images)
                 ) {
                     startActivity(Intent(

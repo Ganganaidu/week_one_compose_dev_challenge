@@ -15,6 +15,30 @@
         Well, how about flawless, HD images of puppies taken by passionate professional photographers?
         Unsplash has over 900 puppy images to choose from. Beware of cuteness overload.</string>
 
+    <string name="poppy">Poppy</string>
+    <string name="oscar">Oscar</string>
+    <string name="bella">Bella</string>
+    <string name="max">Max</string>
+    <string name="teddy">Teddy</string>
+    <string name="annie">Annie</string>
+    <string name="hazzu">Hazzu</string>
+    <string name="bristy">Bristy</string>
+    <string name="alex">Alex</string>
+    <string name="rolex">Rolex</string>
+
+    <string-array name="puppy_names">
+        <item>@string/poppy</item>
+        <item>@string/oscar</item>
+        <item>@string/bella</item>
+        <item>@string/max</item>
+        <item>@string/teddy</item>
+        <item>@string/annie</item>
+        <item>@string/hazzu</item>
+        <item>@string/bristy</item>
+        <item>@string/alex</item>
+        <item>@string/rolex</item>
+    </string-array>
+
     <integer-array name="puppy_images">
         <item>@drawable/puppy_image_01</item>
         <item>@drawable/puppy_image_02</item>
@@ -26,5 +50,7 @@
         <item>@drawable/puppy_image_08</item>
         <item>@drawable/puppy_image_09</item>
     </integer-array>
+
+
 
 </resources>
