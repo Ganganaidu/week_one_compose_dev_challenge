@@ -1,8 +1,8 @@
-# Put title of your app here
+# Puppy List with compose
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
-![Workflow result](https://github.com/<OWNER>/<REPOSITORY>/workflows/Check/badge.svg)
+![Workflow result](https://github.com/Ganganaidu/week_one_compose_dev_challenge/workflows/Check/badge.svg)
 
 
 ## :scroll: Description
