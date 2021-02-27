@@ -15,32 +15,39 @@
  */
 package com.example.androiddevchallenge
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.compose.setContent
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.androiddevchallenge.MainScreen.MainScreen
 import com.example.androiddevchallenge.ui.theme.MyTheme
+import com.example.androiddevchallenge.viewmodel.PuppyViewModel
+
+const val PUPPY_BUNDLE_EXTRA = "puppyData"
 
 class MainActivity : AppCompatActivity() {
+    private val puppyViewModel by viewModels<PuppyViewModel>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             MyTheme {
-                MyApp()
+                MainScreen(
+                    puppyViewModel,
+                    resources.obtainTypedArray(R.array.puppy_images)
+                ) {
+                    startActivity(Intent(
+                        this,
+                        DetailActivity::class.java
+                    ).apply {
+                        putExtra(PUPPY_BUNDLE_EXTRA, it)
+                    })
+                }
             }
         }
-    }
-}
-
-// Start building your app here!
-@Composable
-fun MyApp() {
-    Surface(color = MaterialTheme.colors.background) {
-        Text(text = "Ready... Set... GO!")
     }
 }
 
@@ -48,7 +55,7 @@ fun MyApp() {
 @Composable
 fun LightPreview() {
     MyTheme {
-        MyApp()
+        //MyApp()
     }
 }
 
@@ -56,6 +63,7 @@ fun LightPreview() {
 @Composable
 fun DarkPreview() {
     MyTheme(darkTheme = true) {
-        MyApp()
+        // MyApp()
     }
 }
+

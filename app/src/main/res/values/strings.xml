@@ -10,4 +10,21 @@
       the License.
       -->
     <string name="app_name">AndroidDevChallenge</string>
+
+    <string name="puppy_desc">Is there anything more emotive and endearing than images of puppies? No?
+        Well, how about flawless, HD images of puppies taken by passionate professional photographers?
+        Unsplash has over 900 puppy images to choose from. Beware of cuteness overload.</string>
+
+    <integer-array name="puppy_images">
+        <item>@drawable/puppy_image_01</item>
+        <item>@drawable/puppy_image_02</item>
+        <item>@drawable/puppy_image_03</item>
+        <item>@drawable/puppy_image_04</item>
+        <item>@drawable/puppy_image_05</item>
+        <item>@drawable/puppy_image_06</item>
+        <item>@drawable/puppy_image_07</item>
+        <item>@drawable/puppy_image_08</item>
+        <item>@drawable/puppy_image_09</item>
+    </integer-array>
+
 </resources>
