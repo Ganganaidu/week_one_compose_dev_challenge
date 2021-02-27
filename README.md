@@ -1,20 +1,13 @@
-# Puppy List with compose
+# Puppy List with Compose
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
 ![Workflow result](https://github.com/Ganganaidu/week_one_compose_dev_challenge/workflows/Check/badge.svg)
 
 
-## :scroll: Description
-<!--- Implemented application with all jetpack compose, 
-      displaying list view with LazyColumn and details view with Column. -->
+## :scroll: Implemented application with all jetpack compose,displaying list view with LazyColumn and details view with Column.
 
-
-## :bulb: Motivation and Context
-<!--- It took me little time to understand the basic concepts, 
-      but it was very easy to implement views like recycle view and other complex hierarchical views -->
-<!--- Enjoyed applying different formats to image, text and LazyColumn views. -->
-
+## :bulb: It took me little time to understand the basic concepts,but it was very easy to implement views like recycle view and other complex hierarchical views  and Context. Enjoyed applying different formats to image, text and LazyColumn views.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
