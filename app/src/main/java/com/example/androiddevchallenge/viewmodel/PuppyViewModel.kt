@@ -28,7 +28,7 @@ class PuppyViewModel : ViewModel() {
     fun getPuppyList(imageList: TypedArray, nameList: Array<String>) {
         var count = 0
         puppyList.value = List(50) {
-            if(count >= 9) { // reset count as we have only 9 images
+            if (count >= 9) { // reset count as we have only 9 images
                 count = 0
             }
             count++

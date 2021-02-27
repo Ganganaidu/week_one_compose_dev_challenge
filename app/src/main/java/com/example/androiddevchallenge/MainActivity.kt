@@ -40,12 +40,14 @@ class MainActivity : AppCompatActivity() {
                     resources.getStringArray(R.array.puppy_names),
                     resources.obtainTypedArray(R.array.puppy_images)
                 ) {
-                    startActivity(Intent(
-                        this,
-                        DetailActivity::class.java
-                    ).apply {
-                        putExtra(PUPPY_BUNDLE_EXTRA, it)
-                    })
+                    startActivity(
+                        Intent(
+                            this,
+                            DetailActivity::class.java
+                        ).apply {
+                            putExtra(PUPPY_BUNDLE_EXTRA, it)
+                        }
+                    )
                 }
             }
         }
@@ -56,7 +58,7 @@ class MainActivity : AppCompatActivity() {
 @Composable
 fun LightPreview() {
     MyTheme {
-        //MyApp()
+        // MyApp()
     }
 }
 
@@ -67,4 +69,3 @@ fun DarkPreview() {
         // MyApp()
     }
 }
-
